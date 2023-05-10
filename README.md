@@ -1,6 +1,7 @@
 # プロンプトカスタマイズ用のリポジトリ
 以下を.zshrcに貼り付ければOK
 
+```shell
 # git
 autoload -Uz vcs_info
 setopt prompt_subst
@@ -19,3 +20,4 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+```
