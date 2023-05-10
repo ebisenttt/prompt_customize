@@ -17,7 +17,4 @@ PROMPT='
 [%B%F{red}%n%f%b:%F{green}%~%f]%F{cyan}$vcs_info_msg_0_%f
 %F{yellow}$%f '
 eval "$(/opt/homebrew/bin/brew shellenv)"
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
 ```
